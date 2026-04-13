@@ -1,3 +1,7 @@
 Builder pattern:
 -----------------------------------------------------
 https://refactoring.guru/design-patterns/builder
+
+Dependency Injection:
+---------------------------
+https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection/overview

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\netfeatures_di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|solutionrelative:netfeatures_di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\netfeatures_di\\bankingoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|solutionrelative:netfeatures_di\\bankingoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBED148B-3BB4-4C00-8774-49FCC83B5E68}|DIService\\DIService.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diservice\\dicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBED148B-3BB4-4C00-8774-49FCC83B5E68}|DIService\\DIService.csproj|solutionrelative:diservice\\dicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\netfeatures_di\\ioperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB2445AB-50BA-43AF-B21E-FC89A291E1D9}|NETFeatures_DI\\NETFeatures_DI.csproj|solutionrelative:netfeatures_di\\ioperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DIContainer.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIService\\DIContainer.cs",
-              "RelativeDocumentMoniker": "DIService\\DIContainer.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIService\\DIContainer.cs",
-              "RelativeToolTip": "DIService\\DIContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\OrderRepository.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\OrderRepository.cs",
+              "RelativeToolTip": "DIAdvanced\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:15:32.593Z",
+              "WhenOpened": "2026-04-13T11:53:33.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BankingOperations.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\BankingOperations.cs",
-              "RelativeDocumentMoniker": "NETFeatures_DI\\BankingOperations.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\BankingOperations.cs",
-              "RelativeToolTip": "NETFeatures_DI\\BankingOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\CustomerRepository.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\CustomerRepository.cs",
+              "RelativeToolTip": "DIAdvanced\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:12:05.617Z",
+              "WhenOpened": "2026-04-13T11:52:17.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Customer.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\Customer.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Customer.cs",
+              "RelativeToolTip": "DIAdvanced\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:50:21.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Order.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\Order.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Order.cs",
+              "RelativeToolTip": "DIAdvanced\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T11:49:36.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IOperations.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\IOperations.cs",
-              "RelativeDocumentMoniker": "NETFeatures_DI\\IOperations.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\IOperations.cs",
-              "RelativeToolTip": "NETFeatures_DI\\IOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\IRepository.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\IRepository.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\IRepository.cs",
+              "RelativeToolTip": "DIAdvanced\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:10:51.697Z",
+              "WhenOpened": "2026-04-13T11:48:35.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\Program.cs",
-              "RelativeDocumentMoniker": "NETFeatures_DI\\Program.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\Program.cs",
-              "RelativeToolTip": "NETFeatures_DI\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAzwDYAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Program.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Program.cs",
+              "RelativeToolTip": "DIAdvanced\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:10:14.54Z",
+              "WhenOpened": "2026-04-13T11:38:30.087Z",
               "EditorCaption": ""
             }
           ]
