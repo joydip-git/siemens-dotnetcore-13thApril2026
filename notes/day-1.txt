@@ -1,12 +1,3 @@
-.Net Core or .NET 
-----------------------
-built-in features
-1. Dependency Injection
-2. Logging Service
-3. Configuration service and options pattern
-4. Hosting service
-
-
 old concepts:
 ----------------
 collections
@@ -103,6 +94,53 @@ console -> namespace system -> system.console.dll
 
 Microsoft.NETCore.App pack:
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.5\ref\net10.0
+
+
+Builder pattern
+
+OCP => open for extension closed for change
+
+
+Builder pattern:
+---------------------------
+	extend an existing entity with several features from outside the class using some other class
+	using this builder pattern we build complex object one step at a time by following the same repeatative steps
+	it helps you to avoid creating lots of subclasses
+
+builders:
+	The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
+
+The pattern organizes object construction into a set of steps (buildWalls, buildDoor, etc.). To create an object, you execute a series of these steps on a builder object. 
+The important part is that you don’t need to call all of the steps. You can call only those steps that are necessary for producing a particular configuration of an object.
+
+extension method:
+	adding instance methods in an existing without modifying the class source code
+
+
+web app
+	- add web server (kestrel)
+	- add request and response pipe line
+	
+
+web app
+	- add middleware for auth
+	- add middleware for authorization
+	- add middleware for cors
+
+basic console app
+	- add DI feature
+	- add Logging feature
+	- add feature to read config data from json file etc
+	- add hosting feature
+
+
+.Net Core or .NET 
+----------------------
+built-in features
+1. Dependency Injection
+2. Logging Service
+3. Configuration service and options pattern
+4. Hosting service
 
 
 

@@ -1,0 +1,15 @@
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\bin\Debug\net9.0\BuilderPattern.exe
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\bin\Debug\net9.0\BuilderPattern.deps.json
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\bin\Debug\net9.0\BuilderPattern.runtimeconfig.json
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\bin\Debug\net9.0\BuilderPattern.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\bin\Debug\net9.0\BuilderPattern.pdb
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.GeneratedMSBuildEditorConfig.editorconfig
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.AssemblyInfoInputs.cache
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.AssemblyInfo.cs
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.csproj.CoreCompileInputs.cache
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.sourcelink.json
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\refint\BuilderPattern.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.pdb
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\BuilderPattern.genruntimeconfig.cache
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\BuilderPattern\BuilderPattern\obj\Debug\net9.0\ref\BuilderPattern.dll
