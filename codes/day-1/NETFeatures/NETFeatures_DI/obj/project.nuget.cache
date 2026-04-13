@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kfFFgsiyOSY=",
+  "success": true,
+  "projectFilePath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\NETFeatures_DI\\NETFeatures_DI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.14\\microsoft.extensions.dependencyinjection.9.0.14.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.14\\microsoft.extensions.dependencyinjection.abstractions.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

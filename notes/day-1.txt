@@ -114,7 +114,7 @@ The pattern organizes object construction into a set of steps (buildWalls, build
 The important part is that you don’t need to call all of the steps. You can call only those steps that are necessary for producing a particular configuration of an object.
 
 extension method:
-	adding instance methods in an existing without modifying the class source code
+	adding instance methods in an existing entity without modifying the class source code
 
 
 web app
@@ -141,6 +141,30 @@ built-in features
 2. Logging Service
 3. Configuration service and options pattern
 4. Hosting service
+
+
+Inversion of Control (IoC) principle
+-------------------------------------
+	invert the responsibility of instantiation of some type (class) in a container rather than taking that responsibility.
+
+Dependency Injection: a mechanism through which the IoC container injects the instance where it is required
+	
+Loose Coupling - Role of interface in loose coupling
+
+
+Dependency Injection in .NET:
+-----------------------------------
+add refernce to nuget packages: [10.0.5 for .NET 10 and 9.0.14 for .NET 9]
+	1. Microsoft.Extensions.DependencyInjection.Abstractions (for interfaces such as IServiceCollection, IServiceProvider)
+	2. Microsoft.Extensions.DependencyInjection: for classes ServiceCollection, ServiceProvider etc. [add reference to this one, previous one will be added anyway as transitive dependency]
+
+register your service using Add method of IServiceCollection/ServiceCollection, mention the following by creating an instance of ServiceDescriptor (a type to describe the service):
+
+service type: typeof(interface)
+implementation type: typeof(class)
+lifetime: how long the instance of the implementation type should exist in the container
+
+
 
 
 

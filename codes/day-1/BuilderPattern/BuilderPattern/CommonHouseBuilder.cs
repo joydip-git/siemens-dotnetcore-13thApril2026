@@ -31,12 +31,12 @@
         public Room BuildRoom() => room;
     }
 
-    public class HouseBuilder
+    public class CommonHouseBuilder : IHouseBuilder
     {
         private House house = new();
         private RoomBuilder roomBuilder = new();
 
-        public HouseBuilder AddRooms()
+        public CommonHouseBuilder AddRooms()
         {
             house.Rooms =
                 [
@@ -64,19 +64,19 @@
             return this;
         }
 
-
-        public HouseBuilder AddGarden()
+        public CommonHouseBuilder AddGarden()
         {
             house.Garden = new();
             return this;
         }
-        public HouseBuilder AddPool()
+
+        public CommonHouseBuilder AddPool()
         {
             house.SwimmingPool = new();
             return this;
         }
 
-        public HouseBuilder AddGarage()
+        public CommonHouseBuilder AddGarage()
         {
             house.AddGarage(new Garage());
             return this;

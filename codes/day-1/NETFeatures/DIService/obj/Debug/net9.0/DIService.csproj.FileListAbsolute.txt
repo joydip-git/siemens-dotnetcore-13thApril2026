@@ -1,0 +1,12 @@
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\bin\Debug\net9.0\DIService.deps.json
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\bin\Debug\net9.0\DIService.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\bin\Debug\net9.0\DIService.pdb
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.GeneratedMSBuildEditorConfig.editorconfig
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.AssemblyInfoInputs.cache
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.AssemblyInfo.cs
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.csproj.CoreCompileInputs.cache
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.sourcelink.json
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\refint\DIService.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\DIService.pdb
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-1\NETFeatures\DIService\obj\Debug\net9.0\ref\DIService.dll

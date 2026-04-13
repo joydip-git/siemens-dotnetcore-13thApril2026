@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            HouseBuilder houseBuilder = new();
+            CommonHouseBuilder houseBuilder = new();
             House house = houseBuilder.BuildHouse();
 
             Console.WriteLine(house.SwimmingPool == null ? "Pool NA" : "Pool available");
@@ -17,6 +17,7 @@
 
             house = houseBuilder
                 .AddGarage()
+                .AddX()
                 .BuildHouse();
 
             Console.WriteLine(house.SwimmingPool == null ? "Pool NA" : "Pool available");

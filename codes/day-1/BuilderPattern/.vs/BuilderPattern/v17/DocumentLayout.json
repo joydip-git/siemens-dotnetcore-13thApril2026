@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\housebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\housebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\housebuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\housebuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\commonhousebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\commonhousebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\ihousebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\ihousebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\houseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\houseextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4604749A-5229-4D51-AA65-4604EB76C1EB}|BuilderPattern\\BuilderPattern.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\builderpattern\\builderpattern\\features.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "IHouseBuilder.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\IHouseBuilder.cs",
+              "RelativeDocumentMoniker": "BuilderPattern\\IHouseBuilder.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\IHouseBuilder.cs",
+              "RelativeToolTip": "BuilderPattern\\IHouseBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T10:01:51.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HouseBuilderExtensions.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "BuilderPattern\\HouseBuilderExtensions.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseBuilderExtensions.cs",
+              "RelativeToolTip": "BuilderPattern\\HouseBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T09:55:09.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HouseExtensions.cs",
               "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseExtensions.cs",
               "RelativeDocumentMoniker": "BuilderPattern\\HouseExtensions.cs",
               "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseExtensions.cs",
               "RelativeToolTip": "BuilderPattern\\HouseExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:54:02.891Z"
+              "WhenOpened": "2026-04-13T08:54:02.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Features.cs",
               "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\Features.cs",
               "RelativeDocumentMoniker": "BuilderPattern\\Features.cs",
@@ -62,20 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HouseBuilder.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseBuilder.cs",
-              "RelativeDocumentMoniker": "BuilderPattern\\HouseBuilder.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\HouseBuilder.cs",
-              "RelativeToolTip": "BuilderPattern\\HouseBuilder.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CommonHouseBuilder.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\CommonHouseBuilder.cs",
+              "RelativeDocumentMoniker": "BuilderPattern\\CommonHouseBuilder.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\CommonHouseBuilder.cs",
+              "RelativeToolTip": "BuilderPattern\\CommonHouseBuilder.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T08:39:08.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "House.cs",
               "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\House.cs",
               "RelativeDocumentMoniker": "BuilderPattern\\House.cs",
@@ -83,18 +118,17 @@
               "RelativeToolTip": "BuilderPattern\\House.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T08:27:09.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T08:27:09.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\Program.cs",
               "RelativeDocumentMoniker": "BuilderPattern\\Program.cs",
               "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\BuilderPattern\\BuilderPattern\\Program.cs",
               "RelativeToolTip": "BuilderPattern\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T08:26:43.282Z",
               "EditorCaption": ""
