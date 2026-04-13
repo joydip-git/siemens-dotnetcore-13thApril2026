@@ -1,0 +1,112 @@
+.Net Core or .NET 
+----------------------
+built-in features
+1. Dependency Injection
+2. Logging Service
+3. Configuration service and options pattern
+4. Hosting service
+
+
+old concepts:
+----------------
+collections
+delegates
+reflection
+new features in C#
+LINQ
+task and asynchronity
+
+design pattern
+------------------
+Builder pattern
+
+
+.NET Framework [legacy]
+---------------------------
+2002 (1.0) till 2019 (4.8)
+
+
+2016
+---------------------------------------------------------------------------
+Open source, modular, cross-platform and light-weight framework - .Net Core
+version: 1.0...3.1
+
+.NET 
+----------------
+next version: 5, 6,...,10
+LTS (even number) and STS (odd number)
+
+CLI tool: dotnet
+how many versions of .NET installed in your machine?
+command: dotnet --list-sdks
+
+.NET 10 => VS 2026
+
+.NET Framework (legacy)
+---------------------------------
+base class library -> BCL (mscorlib.dll + system.dll + others)
+CLR -> common language runtime
+asp.net -> web tech
+ado.net/ef -> data access
+
+file structure and execubtables:
+--------------------------------------
+console app, wpf -> output file (.exe)
+
+library, web app -> output file (.dll)
+
+execution cycle of .NET
+-------------------------
+
+host app: shim.exe (windows)
+
+mscoree.h (C++ header file) -> Microsoft Common Object Runtime Execution Engine (a file related to CLR)
+
+mscoree.dll -> CLR
+
+loadandBindClr ->
+
+CSharp Compiler to compile C# code into IL code and generate assembly
+
+
+.NET or .Net Core
+
+execution cycle of .NET
+-------------------------
+host app???? -> application specific host is created
+
+console app -> host file (.exe) + actual output file (.dll) or assembly + *.deps.json + *.runtimeconfig.json [platform neutral]
+
+wpf -> host file (.exe) + actual output file (.dll) or assembly + *.deps.json + *.runtimeconfig.json [is not platform neutral]
+
+web app -> host file/web server + actual output file (.dll) or assembly + *.deps.json + *.runtimeconfig.json [platform neutral] [platform neutral]
+
+library -> actual output file (.dll) or assembly + *.deps.json [platform neutral]
+
+Roslyn Compiler -> to compile C# code and VB code into IL code and generate assembly
+
+
+base class library - core library
+	small modular libraries
+	
+runtimes
+	- core/.net runtime -> basic apps can run (console app)
+		- desktop runtime -> wpf, windows form app
+		- web runtime/asp.net core runtime -> web app
+asp.net core -> web tech
+ado.net/ef core -> data access
+
+
+console -> namespace system -> mscorlib.dll
+console -> namespace system -> system.console.dll
+
+
+Microsoft.NETCore.App pack:
+C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.5\ref\net10.0
+
+
+
+
+
+
+
