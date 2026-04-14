@@ -12,6 +12,9 @@ namespace DelegatePractice
         object _target;
         Delegate[] _invocationList;
 
+        public MethodInfo Method => _method;
+        public Object Target => _target;
+
         public LogicInvoker(MethodInfo method, object target)
         {
             _method = method;

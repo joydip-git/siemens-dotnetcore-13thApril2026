@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DelegateImplementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcc830138da1bdae7fa9165fd72a077f80b41761")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74ce146d5ca2c2c8266f86cfa70eef078586ed9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DelegateImplementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DelegateImplementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

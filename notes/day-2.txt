@@ -41,3 +41,49 @@ C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\idasm.e
 Delegates:
 ------------------
 
+class Logic{
+	public bool IsEven(int item){
+		return item % 2 == 0;
+	}
+}
+
+delegate bool LogicInvoker(int x);
+
+var obj = new { FirstName="anil"};
+
+
+functional programming:
+-------------------------------------
+
+
+pure function : which does not alter/mutate the inputs, rather uses those inputs to produce different output every time in the same way when the function is called.
+
+int Add(int a, int b) => a + b
+
+source of data:
+List<int> numbers = [1,2,3,4,5,6,7,8,9,0] 
+
+1. numbers -> sort the numbers in descending order -> a collection of sorted numbers
+
+2. a collection of sorted numbers -> filter only even numbers -> a collection of filtered numbers
+
+3. a collection of filtered numbers -> multiply every even number by 5 -> a collection of multiplied numbers
+
+4. a collection of multiplied numbers -> take the first 3 values -> a collection of only 3 numbers
+5. a collection of only 3 numbers -> print them -> no result
+
+Generic Collection types -> .Net Framework 2.0 (2005)
+Extension Method -> .Net Framework 3.0 (2007)
+
+static class Enumerable{
+	public IEnumerable<T> Where<T>(this IEnumerable<T> collection, Func<T,bool> logic)
+	{ //code}
+}
+
+LINQ -> .Net Framework 3.5 (2008)
+	Language Integrated Query
+
+
+
+
+
