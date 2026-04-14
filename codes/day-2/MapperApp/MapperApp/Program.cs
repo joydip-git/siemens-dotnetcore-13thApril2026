@@ -11,12 +11,19 @@
                Price = 1200000,
                Description = "A high-performance 15 inch laptop from dell"
            };
-            
-            Mapper mapper = new Mapper();
-            //productEntity => source object
-            //Map<ProductDto> => destination object
-            //ProductDto dto =  mapper.Map<ProductDto>(productEntity);
-            //Console.WriteLine($"Id: {dto.Id}, Name: {dto.Name}, Price: {dto.Price}, Description: {dto.Description}");
+
+            try
+            {
+                Mapper mapper = new Mapper();
+                //productEntity => source object
+                //Map<ProductDto> => destination object
+                ProductDto dto = mapper.Map<ProductDto>(productEntity);
+                Console.WriteLine($"Id: {dto.Id}, Name: {dto.Name}, Price: {dto.Price}, Description: {dto.Description}");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 }
