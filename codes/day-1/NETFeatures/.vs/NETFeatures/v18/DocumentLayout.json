@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBED148B-3BB4-4C00-8774-49FCC83B5E68}|DIService\\DIService.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diservice\\dicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBED148B-3BB4-4C00-8774-49FCC83B5E68}|DIService\\DIService.csproj|solutionrelative:diservice\\dicontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-1\\netfeatures\\diadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{448A0BA1-ACD1-41D5-8FAA-4007F913BFBC}|DIAdvanced\\DIAdvanced.csproj|solutionrelative:diadvanced\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Program.cs",
+              "RelativeDocumentMoniker": "DIAdvanced\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIAdvanced\\Program.cs",
+              "RelativeToolTip": "DIAdvanced\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T07:16:29.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DIContainer.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIService\\DIContainer.cs",
+              "RelativeDocumentMoniker": "DIService\\DIContainer.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-1\\NETFeatures\\DIService\\DIContainer.cs",
+              "RelativeToolTip": "DIService\\DIContainer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T07:15:43.411Z",
+              "EditorCaption": ""
             }
           ]
         }
