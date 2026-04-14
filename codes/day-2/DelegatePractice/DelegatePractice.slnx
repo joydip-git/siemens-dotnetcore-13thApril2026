@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DelegateImplementation/DelegateImplementation.csproj" />
+  <Project Path="DelegatePractice/DelegatePractice.csproj" />
+</Solution>

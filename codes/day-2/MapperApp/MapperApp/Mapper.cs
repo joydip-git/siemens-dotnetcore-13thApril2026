@@ -20,11 +20,20 @@ namespace MapperApp
                 foreach (PropertyInfo sourceProperty in sourceProperties)
                 {
                     //targetType.GetProperty(sourceProperty.Name)
-                    foreach (PropertyInfo targetProperty in targetProperties)
+                    //foreach (PropertyInfo targetProperty in targetProperties)
+                    //{
+                    //    if (sourceProperty.Name.Equals(targetProperty.Name)
+                    //        && sourceProperty.PropertyType.Equals(targetProperty.PropertyType)
+                    //        && targetProperty.CanWrite && sourceProperty.CanRead)
+                    //    {
+                    //        targetProperty.SetValue(targetObject, sourceProperty.GetValue(source));
+                    //    }
+                    //}
+
+                    PropertyInfo? targetProperty = targetType.GetProperty(sourceProperty.Name);
+                    if (targetProperty != null)
                     {
-                        if (sourceProperty.Name.Equals(targetProperty.Name)
-                            && sourceProperty.PropertyType.Equals(targetProperty.PropertyType)
-                            && targetProperty.CanWrite && sourceProperty.CanRead)
+                        if(targetProperty.PropertyType.Equals(sourceProperty.PropertyType) && targetProperty.CanWrite && sourceProperty.CanRead)
                         {
                             targetProperty.SetValue(targetObject, sourceProperty.GetValue(source));
                         }
