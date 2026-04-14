@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ReflectionClient/ReflectionClient.csproj" />
+  <Project Path="ReflectionLibrary/ReflectionLibrary.csproj" />
+</Solution>

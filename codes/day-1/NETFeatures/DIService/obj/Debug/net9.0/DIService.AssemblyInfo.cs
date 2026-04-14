@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df27a4a5ef0aae36485fe15f1f48ce1bd7391d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c5ccae2019aa4f687c42314d8f1bfa9e32dae0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

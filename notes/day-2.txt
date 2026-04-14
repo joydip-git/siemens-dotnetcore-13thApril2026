@@ -3,7 +3,13 @@ Introduction to .NET
 	files
 	host 
 Builder Pattern
+
 .NET Features
+- DI
+- Configuration
+- logging
+- hosting
+
 	1. Dependency Injection
 	packages: Microsoft.Extensions.DependencyInjection (Microsoft.Extensions.DependencyInjection.Abstractions - transitive dependency)
 	interfaces: IServiceCollection, IServiceProvider
@@ -20,3 +26,17 @@ Builder Pattern
 
 	built-in Enum: ServiceLifetime -> Singleton, Scoped and Transient
 	ServiceScope -> a scope/context where the dependencies of a service is automatically resolved and the lifetime of a service instance is controlled
+
+Reflection:
+------------------
+is a technique
+	- to extract/discovering metadata about and aseembly or any type or members of any time during runtime
+	- for creating instance of any type (class or delegate) dynamically
+	- to invoke a method dynamically based on the metadata of the method
+
+tool to view assembly contents => ildasm -> Intermediate Language (IL) DisAssembler (DASM)
+
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\idasm.exe
+
+Delegates:
+------------------
