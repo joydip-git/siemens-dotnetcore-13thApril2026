@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DIAdvanced")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac44cbbb1d19dcf56aaab9830e9b6a10993c5e6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df27a4a5ef0aae36485fe15f1f48ce1bd7391d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DIAdvanced")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DIAdvanced")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,22 @@
+Introduction to .NET
+	Execution cycle
+	files
+	host 
+Builder Pattern
+.NET Features
+	1. Dependency Injection
+	packages: Microsoft.Extensions.DependencyInjection (Microsoft.Extensions.DependencyInjection.Abstractions - transitive dependency)
+	interfaces: IServiceCollection, IServiceProvider
+	classes: ServiceCollection and ServiceProvider
+
+	LifeTime and Scope
+	
+	Service Lifetime:
+	1. Singleton: single instance throughout the application. it is not bound to any scope. hence scope disposal has no effect on this type of instance except that this instance is disposed
+
+	2. Scoped: this type of instance is bound to a scope. only one instance is created for a scope and disposed off during scope disposal.
+
+	3. Transient: every time a new instance is created on demand. even within the same scope multiple instances will be created but all of them will disposed off during scope disposal.
+
+	built-in Enum: ServiceLifetime -> Singleton, Scoped and Transient
+	ServiceScope -> a scope/context where the dependencies of a service is automatically resolved and the lifetime of a service instance is controlled

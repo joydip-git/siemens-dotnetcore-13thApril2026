@@ -6,7 +6,7 @@ namespace DIAdvanced
     {
         static void Main(string[] args)
         {
-            IServiceProvider provider = ConfigureServices();
+            ServiceProvider provider = ConfigureServices();
             IMessenger messenger = provider.GetRequiredKeyedService<IMessenger>("simple");
             Console.WriteLine(messenger.Greet("joydip"));
 
@@ -17,7 +17,7 @@ namespace DIAdvanced
                 Console.WriteLine($"Name={item.Name}");
             }
         }
-        static IServiceProvider ConfigureServices()
+        static ServiceProvider ConfigureServices()
         {
             IServiceCollection builder = new ServiceCollection();
             builder.AddKeyedSingleton<IMessenger, SimpleMessenger>("simple");
