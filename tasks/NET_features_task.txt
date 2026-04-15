@@ -1,7 +1,7 @@
 Part-1: DI
 -------------------
 create a Calculation class with methods such as Add, Subtract, Multiply and Divide
-all the methods accepts two arguemnts of type int and returns the calculated value (int)
+all the methods accepts two arguments of type int and returns the calculated value (int)
 the divide method and others too should throw exception if necessary
 this exceptions will be logged by the logger class
 

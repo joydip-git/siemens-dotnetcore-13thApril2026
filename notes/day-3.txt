@@ -180,6 +180,16 @@ Provides the functionality to bind an object to data in configuration providers 
 This package enables you to represent the configuration data as strongly-typed classes defined in the application code. 
 To bind a configuration, use the "Microsoft.Extensions.Configuration.ConfigurationBinder.Get" extension method on the IConfiguration object. 
 To use this package, you also need to install a package for the configuration provider, for example, Microsoft.Extensions.Configuration.Json for the JSON provider.
+
+
+adding nuget packages
+	- NuGet Package Manager tool
+	- NuGet Package Manager Console
+	  ex: NuGet\Install-Package Microsoft.Extensions.DependencyInjection -Version 10.0.6
+	- dotnet cli
+	  ex: dotnet add package Microsoft.Extensions.DependencyInjection --version 10.0.6
+	- Package Reference
+	  copy the package reference and paste the same in *.csproj file in <ItemGroup> element
 	
 
 
