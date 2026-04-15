@@ -134,4 +134,57 @@ against XML file:
 -----------------------
 4. ExecuteXmlReader() -> used with XML file and returns a reader object with data from XML file
 
+Disadvantages:
+-------------------
+1. the change of database will force the developers to change the data access code and the provider
+
+2. developers need to know database specific SQL or if it is no-SQL database then specific drivers and query techniques
+
+3. developers need to micromanage the connection, the command and many such data provider APIs, such as opening and closing connection, disposing off unmanaged resources etc.
+
+Entity Framework -> OR/M tool
+EF Core
+
+
+.NET Features:
+---------------------
+Configuration services: "reading" configuration data from different sources
+	- text file
+	- json file
+	- xml file
+	- env variable file
+	- azure vault
+	- runtime collection
+	....
+through a common interface -> IConfiguration (-> IConfigurationRoot)
+
+packages:
+
+   Core: provides only reading from in-memory collection
+	Microsoft.Extensions.Configuration (implementation)
+	Microsoft.Extensions.Configuration.Abstractions (abstraction)
+
+   Json:
+	Microsoft.Extensions.Configuration.Json
+
+   Binder:
+	Microsoft.Extensions.Configuration.Binder
+
+Note: Configuration services are already registered with .NET DI container
+
+Binding a model/strongly-typed class to a section of json file
+
+Microsoft.Extensions.Configuration.Binder:
+---------------------------------------------
+Provides the functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration. 
+This package enables you to represent the configuration data as strongly-typed classes defined in the application code. 
+To bind a configuration, use the "Microsoft.Extensions.Configuration.ConfigurationBinder.Get" extension method on the IConfiguration object. 
+To use this package, you also need to install a package for the configuration provider, for example, Microsoft.Extensions.Configuration.Json for the JSON provider.
+	
+
+
+
+
+
+
 

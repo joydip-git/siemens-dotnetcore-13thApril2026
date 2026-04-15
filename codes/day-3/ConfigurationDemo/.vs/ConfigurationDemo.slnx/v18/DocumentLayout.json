@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\configurationdemo\\configurationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\configurationdemo\\configurationdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\configurationdemo\\configurationdemo\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\configurationdemo\\configurationdemo\\siemensdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F310BC79-C550-46E5-88C3-443608E78D5F}|ConfigurationDemo\\ConfigurationDemo.csproj|solutionrelative:configurationdemo\\siemensdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\Authentication.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Authentication.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\Authentication.cs",
+              "RelativeToolTip": "ConfigurationDemo\\Authentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:22:10.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\Program.cs",
+              "RelativeToolTip": "ConfigurationDemo\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwBIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T08:53:48.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SiemensDbSetting.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\SiemensDbSetting.cs",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\SiemensDbSetting.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\SiemensDbSetting.cs",
+              "RelativeToolTip": "ConfigurationDemo\\SiemensDbSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:18:09.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "ConfigurationDemo\\appsettings.json",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ConfigurationDemo\\ConfigurationDemo\\appsettings.json",
+              "RelativeToolTip": "ConfigurationDemo\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T09:10:42.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Part-1: DI
+-------------------
+create a Calculation class with methods such as Add, Subtract, Multiply and Divide
+all the methods accepts two arguemnts of type int and returns the calculated value (int)
+the divide method and others too should throw exception if necessary
+this exceptions will be logged by the logger class
+
+1. register the Calculation class as a service with dependency injection container
+2. ask for dependency injection of the Calculation class in the Main method
+3. call any method of calculation class
+
+
+Part-2: Configuration
+----------------------------
+create class (ErrorLogger) with a method (LogError) that writes exceptions to a text file
+
+1. place the text file path in appsettings.json file
+2. read the file path through configuration service
+3. create an instance of the logger class and while doing that pass the file path
+4. log the exception as raised by calculation class method
