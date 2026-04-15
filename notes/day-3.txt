@@ -62,3 +62,76 @@ Deferred execution:
 It means that the operation isn't performed at the point in the code where the query is declared. 
 The operation is performed only when the query variable is enumerated, for example by using a foreach statement or ToList() method call.
 
+install sql server express edition
+
+
+data access:
+--------------------
+ADO.NET -> ActiveX Data Object .NET
+
+built-in types to access data (APIs)
+
+SQL Server (SQL Server Data Provider) [Microsoft.Data.SqlClient]
+----------------------------------------
+SqlConnection
+SqlCommand
+SqlDataReader
+SqlDataAadapter
+....
+
+Oracle (Oracle Data Provider) [Oracle.Data.SqlClient]
+---------------------------------------------------------
+OracleConnection
+OracleCommand
+OracleDataReader
+OracleDataAadapter
+....
+
+
+access data from SQL Server:
+-------------------------------
+System.data.sqlclient -> deprecated
+Microsoft.Data.SqlClient
+
+				keyword
+name of server: 	"server" or "data source"
+name of database: 	"database" or "initial catalog"
+
+authentication:
+windows			"integrated security=true; trust server certificate=true"
+
+sql server		"user id=<value>;password=<value>;trust server 		                                     							certificate=true"
+			"uid=<value>;pwd=<value>;trust server certificate=true"
+
+
+connection string: (with windows authentication)
+"server=joydip-pc\\sqlexpress;database=siemensdb;integrated security=true; trust server certificate=true"
+"data source=joydip-pc\\sqlexpress;initial catalog=siemensdb;integrated security=true; trust server certificate=true"
+
+connection string: (with sql server authentication)
+"server=joydip-pc\\sqlexpress;database=siemensdb;user id=<value>;password=<value>; trust server certificate=true"
+
+"data source=joydip-pc\\sqlexpress;initial catalog=siemensdb;uid =<value>; pwd=<value>; trust server certificate=true"
+
+
+Data Source=JOYDIP-PC\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30
+
+
+SqlCommand method to execute query
+------------------------------------------
+select query:
+--------------------
+1. ExecuteReader -> use when executing a select query which returns more than one value. This method creates a SqlReader object (buffer) and stores the retrieved data in that reader
+
+2. ExecuteScalar -> use when executing a select query which returns one value.
+
+other DDL (insert, update, delete, create table, create database, alter table etc.)
+-------------------------------------------
+3. ExecuteNonQuery() -> use it for all other non-select query. it returns an intereger value indicating how many records, tables etc. got affected
+
+
+against XML file:
+-----------------------
+4. ExecuteXmlReader() -> used with XML file and returns a reader object with data from XML file
+
+
