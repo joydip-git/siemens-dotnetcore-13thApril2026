@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\functionalprogramming_linq\\functionalprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|solutionrelative:functionalprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\functionalprogramming_linq\\functionalprogramming\\customerorderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|solutionrelative:functionalprogramming\\customerorderresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\functionalprogramming_linq\\functionalprogramming\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|solutionrelative:functionalprogramming\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\functionalprogramming_linq\\functionalprogramming\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459BC53-F7C4-052F-A9C3-7DC18BCCC775}|FunctionalProgramming\\FunctionalProgramming.csproj|solutionrelative:functionalprogramming\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerOrderResult.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\CustomerOrderResult.cs",
+              "RelativeDocumentMoniker": "FunctionalProgramming\\CustomerOrderResult.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\CustomerOrderResult.cs",
+              "RelativeToolTip": "FunctionalProgramming\\CustomerOrderResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:35:13.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Order.cs",
+              "RelativeDocumentMoniker": "FunctionalProgramming\\Order.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Order.cs",
+              "RelativeToolTip": "FunctionalProgramming\\Order.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:12:11.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Customer.cs",
+              "RelativeDocumentMoniker": "FunctionalProgramming\\Customer.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Customer.cs",
+              "RelativeToolTip": "FunctionalProgramming\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T05:11:53.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Program.cs",
+              "RelativeDocumentMoniker": "FunctionalProgramming\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\FunctionalProgramming_LINQ\\FunctionalProgramming\\Program.cs",
+              "RelativeToolTip": "FunctionalProgramming\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:57:21.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

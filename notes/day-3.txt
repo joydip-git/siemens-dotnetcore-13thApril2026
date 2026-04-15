@@ -1,0 +1,64 @@
+Functional programming (FP):
+----------------------------------------
+It is a declarative way that treats computation as the evaluation of mathematical functions, avoiding mutable data and side effects. 
+It focuses on immutability, pure functions, and function composition, resulting in cleaner, more predictable, and testable code compared to procedural or object-oriented approaches
+
+Core Concepts
+---------------
+1. Pure Functions: Functions that return the same output for the same input and have no side effects (e.g., they don't change global state, modify arguments, or perform I/O).
+
+2. Immutability: Data cannot be modified after it is created. Instead of changing data, new data structures are created.
+
+3. First-Class Functions: Functions are treated as values, meaning they can be assigned to variables, passed as arguments, and returned from other functions. [delegates, lambda expressions are used for that]
+
+4. Higher-Order Functions: Functions that take other functions as arguments or return them as results (e.g., map, filter, reduce). [again achieved through delegates]
+
+5. Function Composition: The process of combining simple functions to build more complex ones.
+
+6. Declarative Evaluation: Focusing on what to solve rather than how to solve it (imperative)
+
+LINQ: Language Integrated Query
+-------------------------------------------------
+	It is a powerful feature in the .NET ecosystem that allows you to query and manipulate data using a consistent, declarative syntax directly within languages like C# and VB.NET
+	It is the name for a set of technologies based on the integration of query capabilities directly into the C# language
+	set of technologies: OOP, Generics, Collections, delegates, new geatures in C# (extension methods, lambda expressions, expression body, anonymous types, implcitly typed variable etc.) and functional programming
+
+Traditionally, queries against data are expressed as simple strings without type checking at compile time or IntelliSense support. 
+
+"select * from products"
+
+Furthermore, you have to learn a different query language for each type of data source: SQL databases, XML documents, various Web services, and so on
+
+With LINQ, a query is a first-class language construct, just like classes, methods, and events.
+
+Write query expressions in a declarative query syntax. 
+By using query syntax, you perform filtering, ordering, and grouping operations on data sources with a minimum of code. 
+You use the same query expression patterns to query and transform data from any type of data source.
+
+Query:
+--------------
+A query is an expression that retrieves data from a data source and this expression  can be written in 2 different styles
+	a. method syntax
+	b. query syntax
+
+Three Parts of a Query Operation
+--------------------------------------
+All LINQ query operations consist of three distinct actions:
+
+1. Obtain the data source.
+2. Create the query.
+3. Execute the query.
+
+Immediate execution:
+------------------------
+It means that the data source is read and the operation is performed once. All the standard query operators that return a scalar result execute immediately. 
+Examples of such queries are Count, Max, Average, and First 
+
+or calls such as ToList<T>(), or iteration through the collection using foraech loop will force the query to be executed then and there.
+
+
+Deferred execution:
+--------------------
+It means that the operation isn't performed at the point in the code where the query is declared. 
+The operation is performed only when the query variable is enumerated, for example by using a foreach statement or ToList() method call.
+
