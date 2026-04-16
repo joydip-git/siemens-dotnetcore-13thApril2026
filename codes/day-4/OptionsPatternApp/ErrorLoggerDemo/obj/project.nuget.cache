@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rKhvlxhy2ZQ=",
+  "dgSpecHash": "5UuBoEcale4=",
   "success": true,
-  "projectFilePath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
+  "projectFilePath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
     "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",

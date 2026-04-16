@@ -13,6 +13,7 @@ namespace ErrorLoggerDemo
             IConfigurationRoot? configProvider = null;
             try
             {
+                //register an IOptions<FileSetting> and bind the same with FileSetting section of appsettings.json for DI
                 configProvider = CreateConfigurationProvider();
                 provider = CreateConfiguredServiceProvider();
 
@@ -24,21 +25,24 @@ namespace ErrorLoggerDemo
             }
             catch (Exception e)
             {
-                FileSetting? fileSetting = configProvider?.GetRequiredSection("FileSetting").Get<FileSetting>();
-                if (fileSetting != null && !string.IsNullOrEmpty(fileSetting.Path))
-                {
-                    try
-                    {
-                        var logger = new ErrorLogger(fileSetting.Path);
-                        logger?.LogError(e);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex);
-                    }
-                }
-                else
-                    Console.WriteLine(e);
+                //FileSetting? fileSetting = configProvider?
+                //    .GetRequiredSection(nameof(FileSetting))
+                //    .Get<FileSetting>();
+
+                //if (fileSetting != null && !string.IsNullOrEmpty(fileSetting.Path))
+                //{
+                //    try
+                //    {
+                //        var logger = new ErrorLogger(fileSetting.Path);
+                //        logger?.LogError(e);
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        Console.WriteLine(ex);
+                //    }
+                //}
+                //else
+                Console.WriteLine(e);
             }
         }
         static ServiceProvider CreateConfiguredServiceProvider()

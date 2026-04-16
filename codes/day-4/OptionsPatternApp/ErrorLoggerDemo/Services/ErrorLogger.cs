@@ -2,6 +2,7 @@
 
 namespace ErrorLoggerDemo.Services
 {
+    //dependency inject IOptions<FileSetting> here and assign FileSetting.Path property value to the path data member
     public class ErrorLogger(string path) : IErrorLogger
     {
         private readonly string? path = path;

@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\errorloggerdemo_di\\errorloggerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|solutionrelative:errorloggerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\errorloggerdemo_di\\errorloggerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|solutionrelative:errorloggerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\errorloggerdemo_di\\errorloggerdemo\\services\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|solutionrelative:errorloggerdemo\\services\\errorlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-3\\errorloggerdemo_di\\errorloggerdemo\\services\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71765299-3D96-3107-0566-3A4BA118D8B0}|ErrorLoggerDemo\\ErrorLoggerDemo.csproj|solutionrelative:errorloggerdemo\\services\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Program.cs",
-              "RelativeDocumentMoniker": "ErrorLoggerDemo\\Program.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Program.cs",
-              "RelativeToolTip": "ErrorLoggerDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T03:12:16.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\appsettings.json",
-              "RelativeDocumentMoniker": "ErrorLoggerDemo\\appsettings.json",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\appsettings.json",
-              "RelativeToolTip": "ErrorLoggerDemo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-16T03:12:14.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorLogger.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Services\\ErrorLogger.cs",
-              "RelativeDocumentMoniker": "ErrorLoggerDemo\\Services\\ErrorLogger.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Services\\ErrorLogger.cs",
-              "RelativeToolTip": "ErrorLoggerDemo\\Services\\ErrorLogger.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T03:11:29.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Calculation.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Services\\Calculation.cs",
-              "RelativeDocumentMoniker": "ErrorLoggerDemo\\Services\\Calculation.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\Services\\Calculation.cs",
-              "RelativeToolTip": "ErrorLoggerDemo\\Services\\Calculation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T03:10:48.457Z",
-              "EditorCaption": ""
             }
           ]
         }

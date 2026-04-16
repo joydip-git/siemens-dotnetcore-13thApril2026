@@ -1,5 +1,6 @@
 ﻿namespace ErrorLoggerDemo.Services
 {
+    //dependency injection IErrorLogger type service
     public class Calculation : ICalculation
     {
         public int Add(int a, int b)
@@ -10,6 +11,7 @@
             }
             catch (Exception)
             {
+                //log exception before throwing
                 throw;
             }
         }
@@ -22,6 +24,7 @@
             }
             catch (Exception)
             {
+                //log exception before throwing
                 throw;
             }
         }
@@ -34,6 +37,7 @@
             }
             catch (Exception)
             {
+                //log exception before throwing
                 throw;
             }
         }
@@ -45,7 +49,8 @@
                 return a - b;
             }
             catch (Exception)
-            {             
+            {
+                //log exception before throwing
                 throw;
             }
         }

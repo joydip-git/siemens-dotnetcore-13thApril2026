@@ -1,0 +1,72 @@
+Options Pattern:
+----------------------
+The Options pattern in .NET is a design principle that uses classes to provide strongly-typed access to groups of related settings. 
+Instead of reading raw key-value strings from IConfiguration, you bind configuration sections to POCO (Plain Old CLR Object) classes, which are then made available via dependency injection. 
+
+1. Define an Options Class: 
+Create a non-abstract class with a public parameterless constructor and public read-write properties that match your configuration keys.
+
+2. Bind in Program.cs: 
+Register the class in the DI service container and bind it to a configuration section.
+
+3. Inject and Consume: 
+Request an options interface in your service's constructor to access the values via the .Value property
+
+Interface 	Lifetime	Behavior
+------------------------------------------------------------------
+IOptions<T>		Singleton	Reads configuration once at startup. 
+					Does not support runtime changes.
+
+IOptionsSnapshot<T>	Scoped		Recomputed once per request. Ideal for 
+	                        	hot-reloading in web apps while 
+					maintaining consistency within a single 
+					request.
+
+IOptionsMonitor<T>	Singleton	Retrieves the current value at any time. 
+					Supports change notifications and is 
+					suitable for long-running singleton 
+					services.
+Advantages:
+--------------
+1. Type Safety: Avoid "magic strings" and catch errors during compilation instead of at runtime.
+
+2. Validation: Supports Data Annotations (e.g., [Required], [Range]). Using .ValidateOnStart() is a best practice to ensure the app fails immediately if configuration is invalid.
+
+3. Separation of Concerns: Decouples configuration logic from business logic, making code more modular and easier to test with mocks.
+
+4. Named Options: Allows you to bind multiple instances of the same class to different configuration sections (e.g., separate settings for "Email" and "SMS" providers).
+
+
+You need to read some configuration data and dependency inject the same in a service
+solution: options pattern
+
+IOptions<T> -> Built-in service
+binds configuration data/setting in a strongly typed POCO class instance and dependency inject the same in the required service
+
+
+POCO -> Plain Old CLR object
+
+packages:
+	1. Microsoft.Extensions.Options
+	
+optional:
+	2. Microsoft.Extensions.Options.ConfigurationExtensions
+
+along with configuration related packages
+
+   Core: 
+	Microsoft.Extensions.Configuration (implementation)
+	Microsoft.Extensions.Configuration.Abstractions (abstraction)
+
+   Json:
+	Microsoft.Extensions.Configuration.Json
+
+   Binder:
+	Microsoft.Extensions.Configuration.Binder
+
+
+
+
+
+
+

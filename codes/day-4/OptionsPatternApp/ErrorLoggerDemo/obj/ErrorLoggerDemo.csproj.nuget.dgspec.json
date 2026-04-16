@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj": {}
+    "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj": {}
   },
   "projects": {
-    "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj": {
+    "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
+        "projectUniqueName": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
         "projectName": "ErrorLoggerDemo",
-        "projectPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
+        "projectPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
         "packagesPath": "C:\\Users\\joydi\\.nuget\\packages\\",
-        "outputPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\obj\\",
+        "outputPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\OptionsPatternApp\\ErrorLoggerDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
