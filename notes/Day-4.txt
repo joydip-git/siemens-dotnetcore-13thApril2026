@@ -90,6 +90,42 @@ core host: Host
 Host builder
 
 
+RESTful API application:
+	web service to transfer data/resource to you but does not maintain any state about the user/client
+	RMI ( remote method invocation)
+	decouples the web service and the client
+
+
+ASP.NET Core
+	- MVC Razor app (MVC)
+	- Razor web page app
+	- Blazor
+
+	- Web API (RESTful API)
+		minimal web api
+		controller based (MVC - V)
+	- Empty [AddMvcCore()]
+Console App
+	- Main()
+	- Web host builder [WAB builder = WebApplication.CreateBuider(args);]
+
+		ServiceCollection - AddControllers() -> Web API
+				  - AddControllersWithViews() -> MVC Razor app
+			          - AddRazorPages() -> Razor
+				  - AddBlazor() -> Blazor
+
+				  - AddMVC
+
+				  - AddSingleton<>()
+
+		WebApplication host = builder.Build();
+
+		host.Run()
+
+Top level statements
+
+local function - static or instance
+
 
 
 

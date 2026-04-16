@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\samplecorewebapp\\samplecorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|solutionrelative:samplecorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\samplecorewebapp\\samplecorewebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|solutionrelative:samplecorewebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\samplecorewebapp\\samplecorewebapp\\samplecorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6240A896-4F80-42AB-98BF-1E132FBFB1B4}|SampleCoreWebApp\\SampleCoreWebApp.csproj|solutionrelative:samplecorewebapp\\samplecorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SampleCoreWebApp\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SampleCoreWebApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T09:48:17.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SampleCoreWebApp",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\SampleCoreWebApp.csproj",
+              "RelativeDocumentMoniker": "SampleCoreWebApp\\SampleCoreWebApp.csproj",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\SampleCoreWebApp.csproj",
+              "RelativeToolTip": "SampleCoreWebApp\\SampleCoreWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T09:38:57.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "SampleCoreWebApp\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\SampleCoreWebApp\\SampleCoreWebApp\\Program.cs",
+              "RelativeToolTip": "SampleCoreWebApp\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:36:52.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
