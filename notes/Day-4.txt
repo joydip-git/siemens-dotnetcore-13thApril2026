@@ -104,6 +104,7 @@ ASP.NET Core
 	- Web API (RESTful API)
 		minimal web api
 		controller based (MVC - V)
+
 	- Empty [AddMvcCore()]
 Console App
 	- Main()
@@ -126,6 +127,18 @@ Top level statements
 
 local function - static or instance
 
+
+class Authorization{
+	method(){}
+}
+
+
+3 types of middleware:
+	1. Use (The "Chain" middleware): run any logic before and after the next middleware in the pipeline. It receives HttpContext and RequestDelegate as arguments. you must call "await RequestDelegate(context)" to delegate or pass the context to the next middleware. 
+
+	2. Map (The "Bracnch" middleware): used to create branches in the middleware pipeline by matching the request path. the branches can execute its ow n set of middleware too as well as terminate the request
+	
+	3. Run (The "Terminal" middleware): used to terminate the request pipeline and end a branch. It does not receive any RequestDelegate since no other middleware will be executed after this.
 
 
 
