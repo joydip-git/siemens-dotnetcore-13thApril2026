@@ -1,0 +1,2 @@
+﻿100,Dell XPS,120000,New laptop from Dell
+101,HP Probook,110000,New laptop from HP

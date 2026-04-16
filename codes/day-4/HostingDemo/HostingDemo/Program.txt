@@ -1,0 +1,47 @@
+﻿using HostingDemo.Models;
+using HostingDemo.Repository;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.Hosting;
+
+namespace HostingDemo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var hostBuilder = new HostApplicationBuilder(args);
+            //IServiecCollection serviceProviderBuilder = new ServiceCollection();
+            //ConfigurationBuilder configProviderBuilder = new ();
+            //loggerBuilder
+
+            //IServiceCollection serviceProviderBuilder = hostBuilder.Services;
+
+            //this ConfigurationManager does implement IConfigurationBuilder as well as implements IConfigurationRoot
+
+            //ConfigurationManager configProviderBuilder = hostBuilder.Configuration;
+
+            hostBuilder
+                .Configuration
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", false, true);
+
+            hostBuilder
+                .Services
+                .Configure<FileSettingOptions>(hostBuilder.Configuration.GetRequiredSection(nameof(FileSettingOptions)))
+                .AddSingleton<IFileRepository, TextFileRepository>();
+
+            IHost host = hostBuilder.Build();
+
+            //IServiceProvider serviceProvider = serviceProviderBuilder.BuildServiceProvider()
+            //IConfigurationRoot configProvider = configProviderBuilder.Build()
+            //logger provider
+
+            //IServiceProvider serviceProvider = host.Services;
+            var fileRepository = host.Services.GetRequiredService<IFileRepository>();
+
+            Console.WriteLine(fileRepository.ReadData());
+        }
+    }
+}

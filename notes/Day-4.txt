@@ -65,6 +65,33 @@ along with configuration related packages
 	Microsoft.Extensions.Configuration.Binder
 
 
+Hosting:
+-----------------
+	1. provide a service provider object (singleton for entire app)
+	2. provide a configuration provider object (singleton for entire app)
+	3. provide a logger factory object (singleton for entire app) for logger objects
+	4. register services with the service provider
+	5. configure the configuration provider
+	6. configure loggers
+	7. manage app start up and shutdown (helps you in graceful shutdown)
+	8. manage all of the above objects and their swift disposal
+	in short "everything" an app requires
+
+packages:
+	Microsoft.Extensions.Hosting
+	Microsoft.Extensions.Hosting.Abstractions
+
+types of host:
+-------------------
+web app: web host -> WebApplication
+windows services: hosted service
+
+core host: Host
+Host builder
+
+
+
+
 
 
 
