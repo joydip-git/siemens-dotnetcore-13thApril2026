@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "rKhvlxhy2ZQ=",
+  "success": true,
+  "projectFilePath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-3\\ErrorLoggerDemo_DI\\ErrorLoggerDemo\\ErrorLoggerDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.6\\microsoft.extensions.configuration.binder.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.6\\microsoft.extensions.configuration.fileextensions.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.6\\microsoft.extensions.configuration.json.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.6\\microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.6\\microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.6\\microsoft.extensions.fileproviders.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.6\\microsoft.extensions.fileproviders.physical.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.6\\microsoft.extensions.filesystemglobbing.10.0.6.nupkg.sha512",
+    "C:\\Users\\joydi\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

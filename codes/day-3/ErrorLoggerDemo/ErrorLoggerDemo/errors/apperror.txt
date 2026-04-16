@@ -16,3 +16,61 @@ Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int
    at ErrorLoggerDemo.Program.Main() in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo\ErrorLoggerDemo\Program.cs:line 23
 Inner exception: 
 
+Logged at: 16-04-2026 08:15:22
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+Inner exception: 
+
+Logged at: 16-04-2026 08:16:48
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+Inner exception: 
+
+Logged at: 16-04-2026 08:19:12
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+Inner exception: 
+
+Logged at: 16-04-2026 08:22:51
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+Inner exception: 
+
+Logged at: 16-04-2026 08:23:03
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+   at ErrorLoggerDemo.Program.Main() in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Program.cs:line 24
+Inner exception: 
+
+Logged at: 16-04-2026 08:36:49
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+Inner exception: 
+
+Logged at: 16-04-2026 08:36:59
+Details
+Message: Attempted to divide by zero.
+Source: ErrorLoggerDemo
+Method: Int32 Divide(Int32, Int32)
+Complete details:    at ErrorLoggerDemo.Services.Calculation.Divide(Int32 a, Int32 b) in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Services\Calculation.cs:line 23
+   at ErrorLoggerDemo.Program.Main() in E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-3\ErrorLoggerDemo_DI\ErrorLoggerDemo\Program.cs:line 24
+Inner exception: 
+
