@@ -1,0 +1,94 @@
+ASP.NET Core Web API and EF Core
+-----------------------------------
+
+.Net Core runtime [console]
+	- ASP.NET Core runtime
+	- Desktop runtime
+
+w3wp.exe
+
+extensions	module
+---------------------------------------
+.htm		aspnetisapi.dll
+
+
+.xyz		xyzprocessor.dll
+
+handler module
+
+
+Kestrel can be installed in any machine like any other web server
+	- Kestrel is meant for (mainly) asp.net core web app
+	- dependent on .NET Core libs
+		- install .net core or
+		- SCD (self contained deployment)
+
+IIS <-> kestrel <-> in its own shell (.exe)
+
+
+
+Entity Framework
+	1. Db First
+	2. Model first
+	3. code first
+
+ -> EF Core
+	code-first
+
+Object Relational/Mapping tool
+
+
+classes <-> Database and Table(s)
+
+DbContext <-> Database
+Entity <-> table
+
+Collection
+
+
+products
+	- id (pk), name, price, description, cid (fk)
+
+categories
+	- id (pk), name
+
+
+
+
+packages:
+	Microsoft.EntityFrameworkCore
+
+SQL Server, Oracle, MySql, PostgreSQL,...
+
+	Microsoft.EntityFrameworkCore.SqlServer
+
+Entity <-> Table Mapping
+	1. data annotation
+	2. Fluent API
+
+Migration
+	-> to create database and tables if does not exist
+	-> to update those database and tables later point of time (adding new column, deleting an existing column, create another table in the database etc.)
+
+execute migration commands using....
+	1. Package Manager console
+		package: Microsoft.EntityFrameworkCore.Tools
+
+	The Entity Framework Core tools help with design-time development tasks.
+	They're primarily used to manage Migrations and to scaffold a DbContext and entity types by reverse engineering the schema of a database.
+
+	This package, Microsoft.EntityFrameworkCore.Tools is for PowerShell tooling that works in the Visual Studio Package Manager Console (PMC).
+
+	2. ef cli
+		- install using dotnet cli (ef cli package)
+		  install another package:          
+                              Microsoft.EntityFrameworkCore.Design
+
+		- commands are executed using "dotnet ef <command>" 
+
+commands:
+1. to create migration: Add-Migration
+	
+
+
+	

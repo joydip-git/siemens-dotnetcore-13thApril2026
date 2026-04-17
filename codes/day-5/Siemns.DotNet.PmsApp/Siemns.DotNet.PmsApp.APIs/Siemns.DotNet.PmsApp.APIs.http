@@ -1,0 +1,6 @@
+@Siemns.DotNet.PmsApp.APIs_HostAddress = http://localhost:5193
+
+GET {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

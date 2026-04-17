@@ -7,6 +7,7 @@ namespace MiddlewareDemo.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
         [Route("welcome/{name?}")] //{name:"joydip"}
         public string Greet([FromRoute(Name = "name")] string? personName)
         {

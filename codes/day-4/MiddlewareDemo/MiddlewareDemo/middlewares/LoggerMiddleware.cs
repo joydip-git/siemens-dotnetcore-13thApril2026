@@ -5,6 +5,7 @@ namespace MiddlewareDemo.middlewares
     public class LoggerMiddleware
     {
         private RequestDelegate next;
+
         private ILogger<LoggerMiddleware> logger;
         private IDummyService dummyService;
         public LoggerMiddleware(RequestDelegate next, ILogger<LoggerMiddleware> logger, IDummyService dummyService)
@@ -15,7 +16,7 @@ namespace MiddlewareDemo.middlewares
             logger.LogInformation($"instance of {nameof(LoggerMiddleware)} created...");
         }
 
-        //public async Task Invoke()
+        //public async Task Invoke(HttpContext context)
         public async Task InvokeAsync(HttpContext context)
         {
             logger.LogInformation($"Request came at {DateTime.Now} from {context.Request.Path}");

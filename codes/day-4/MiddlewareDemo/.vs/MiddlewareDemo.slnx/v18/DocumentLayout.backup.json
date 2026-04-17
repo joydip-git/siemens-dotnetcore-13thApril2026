@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\middlewares\\appmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\middlewares\\appmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\middlewares\\loggermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\middlewares\\loggermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\middlewares\\loggermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\middlewares\\loggermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E0E313-881F-49DF-9FC9-5BE86356CDE9}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-4\\middlewaredemo\\middlewaredemo\\middlewares\\appmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9CFC85-C184-524C-F5A7-A059625AF4CE}|MiddlewareDemo\\MiddlewareDemo.csproj|solutionrelative:middlewaredemo\\middlewares\\appmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MiddlewareDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MiddlewareDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T04:29:46.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppMiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
+              "RelativeToolTip": "MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T04:23:19.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,22 +66,9 @@
               "RelativeDocumentMoniker": "MiddlewareDemo\\middlewares\\LoggerMiddleware.cs",
               "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\middlewares\\LoggerMiddleware.cs",
               "RelativeToolTip": "MiddlewareDemo\\middlewares\\LoggerMiddleware.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:03:02.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppMiddlewareExtensions.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
-              "RelativeToolTip": "MiddlewareDemo\\middlewares\\AppMiddlewareExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAwAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:02:58.362Z",
+              "WhenOpened": "2026-04-17T04:19:14.62Z",
               "EditorCaption": ""
             },
             {
@@ -66,22 +79,9 @@
               "RelativeDocumentMoniker": "MiddlewareDemo\\Program.cs",
               "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\Program.cs",
               "RelativeToolTip": "MiddlewareDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T11:55:17.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MiddlewareDemo\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-4\\MiddlewareDemo\\MiddlewareDemo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MiddlewareDemo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:54:37.3Z",
               "EditorCaption": ""
             }
           ]
