@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\models\\dao\\implementations\\productdaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\models\\dao\\implementations\\productdaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|e:\\trainings\\siemens-dotnetcore-13thapril2026\\codes\\day-5\\siemns.dotnet.pmsapp\\siemns.dotnet.pmsapp.apis\\filters\\productexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB01264-C523-D06C-0358-EBD9E1E11A19}|Siemns.DotNet.PmsApp.APIs\\Siemns.DotNet.PmsApp.APIs.csproj|solutionrelative:siemns.dotnet.pmsapp.apis\\filters\\productexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-17T12:13:56.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Program.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Program.cs",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:08:36.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Models\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Models\\DTOs\\ProductDTO.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Models\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Models\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T12:04:10.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDaoService.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Models\\Dao\\Implementations\\ProductDaoService.cs",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Models\\Dao\\Implementations\\ProductDaoService.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Models\\Dao\\Implementations\\ProductDaoService.cs",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Models\\Dao\\Implementations\\ProductDaoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:55:12.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductExceptionFilter.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Filters\\ProductExceptionFilter.cs",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Filters\\ProductExceptionFilter.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Filters\\ProductExceptionFilter.cs",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Filters\\ProductExceptionFilter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:46:17.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Siemns.DotNet.PmsApp.APIs\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\trainings\\siemens-dotnetcore-13thApril2026\\codes\\day-5\\Siemns.DotNet.PmsApp\\Siemns.DotNet.PmsApp.APIs\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Siemns.DotNet.PmsApp.APIs\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:36:33.446Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -159,3 +159,6 @@ E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\S
 E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\AutoMapper.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\trainings\siemens-dotnetcore-13thApril2026\codes\day-5\Siemns.DotNet.PmsApp\Siemns.DotNet.PmsApp.APIs\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "Siemns.DotNet.PmsApp.APIs.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Siemns.DotNet.PmsApp.APIs.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Product/all",
     "HttpMethod": "GET",
@@ -9,7 +35,90 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.ICollection\u00601[[Siemns.DotNet.PmsApp.APIs.Models.Entities.Product, Siemns.DotNet.PmsApp.APIs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO, Siemns.DotNet.PmsApp.APIs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Siemns.DotNet.PmsApp.APIs.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/delete/{pid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Siemns.DotNet.PmsApp.APIs.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "p",
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Siemns.DotNet.PmsApp.APIs.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Product/view/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Siemns.DotNet.PmsApp.APIs.Models.DTOs.ProductDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

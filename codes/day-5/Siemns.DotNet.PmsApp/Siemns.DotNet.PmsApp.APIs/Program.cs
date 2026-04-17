@@ -15,8 +15,11 @@ builder.Services.AddDbContext<SiemensDbContext>(contextAction, ServiceLifetime.S
 builder.Services.AddAutoMapper(config => config.AddProfile<AppMapper>());
 builder.Services.AddSingleton<IDbService<ProductDTO, int>, ProductDaoService>();
 builder.Services.AddControllers();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -24,6 +27,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseAuthorization();

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Siemns.DotNet.PmsApp.APIs.Models.Entities
 {
     //[Table("products")]
-    public class Product
+    public class Product    
     {
         //[Key]
         //[Column("product_id", TypeName ="Int")]

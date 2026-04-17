@@ -18,8 +18,8 @@ namespace Siemns.DotNet.PmsApp.APIs.Mapper
                 .ForMember<Category?>(p => p.Category, (expression) => expression.MapFrom(dto => dto.Category))
                 .ReverseMap();
 
-            this.CreateMap<CategoryDTO, Category>()
-                .ReverseMap();
+            //this.CreateMap<CategoryDTO, Category>()
+            //    .ReverseMap();
         }
     }
 }

@@ -1,6 +1,35 @@
 @Siemns.DotNet.PmsApp.APIs_HostAddress = http://localhost:5193
 
-GET {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/weatherforecast/
+GET {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/api/product/all
 Accept: application/json
 
 ###
+GET {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/api/product/view/1000
+
+###
+POST {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/api/product/add
+Content-Type: application/json
+
+{
+  "productId": 0,
+  "productName": "HP Probook",
+  "price": 110000.00,
+  "description": "new laptop from HP",
+  "categoryId": 100
+}
+
+###
+PUT {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/api/product/update?id=1003
+Content-Type: application/json
+
+{
+  "productId": 0,
+  "productName": "HP Probook",
+  "price": 115000.00,
+  "description": "new laptop from HP with 15 inch screen",
+  "categoryId": 100
+}
+
+###
+DELETE {{Siemns.DotNet.PmsApp.APIs_HostAddress}}/api/product/delete/1003
+

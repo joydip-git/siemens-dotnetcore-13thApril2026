@@ -1,6 +1,6 @@
 ﻿namespace Siemns.DotNet.PmsApp.APIs.Models.Dao.Abstractions
 {
-    public interface IDbService<T, TId> where T : class
+    public interface IDbService<T, TId> where T : class where TId:struct
     {
         Task<ICollection<T>> FetchAll();
         Task<T?> Fetch(TId pkeyValue);

@@ -12,15 +12,20 @@ namespace Siemns.DotNet.PmsApp.APIs.Models.Dao.Implementations
     {
         private readonly SiemensDbContext context = context;
         private readonly IMapper mapper = mapper;
-        ILogger<ProductDaoService> daoLogger = daoLogger;
+        private readonly ILogger<ProductDaoService> daoLogger = daoLogger;
 
         public async Task<ProductDTO?> Fetch(int pkeyValue)
         {
             try
             {
                 var all = context.Products;
-                var p = await all.FindAsync(pkeyValue);
-                return p != null ? mapper.Map<ProductDTO>(p) : throw new Exception($"no product with id {pkeyValue} found");
+                if (all.Any(p => p.ProductId == pkeyValue))
+                {
+                    var p = all.Where(p => p.ProductId == pkeyValue).First();
+                    return mapper.Map<ProductDTO>(p);
+                }
+                else
+                    throw new Exception($"no product with id {pkeyValue} found");
             }
             catch (Exception)
             {
@@ -36,7 +41,7 @@ namespace Siemns.DotNet.PmsApp.APIs.Models.Dao.Implementations
                 DbSet<Product> all = context.Products;
                 if (all.Any())
                 {
-                    List<ProductDTO> products = [];
+                    List<DTOs.ProductDTO> products = [];
                     var list = await all.ToListAsync();
                     list.ForEach(
                     p =>
