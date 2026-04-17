@@ -90,5 +90,32 @@ commands:
 1. to create migration: Add-Migration
 	
 
+    DbContextOptionsBuilder builder = new();
+    DbContextOptions<SiemensDbContext> options = builder
+        .UseSqlServer("Data Source=JOYDIP-PC\\SQLEXPRESS;database=siemensdb;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30")
+        .Options;
+
+    using var db = new SiemensDbContext(options);
+    DbSet<Product> all = db.Products;
+    //return all.ToList();
+    return [.. all];
+
+
+ProductController -> ProductDaoService -> SiemensDbContext -> DbContextOptions<SiemensDbContext>
+
+Mapping:
+	AutoMapper
+
+Entity State:
+	Added
+	Unchanged
+	Modified
+	Deleted
+
+
+
+
+
+
 
 	
